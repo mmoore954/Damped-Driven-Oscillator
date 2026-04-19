@@ -18,3 +18,5 @@ Week 4: Test different values and look at resonance
 Week 5: Clean everything up, finalize graphs, and finish report
 
 This project is doable because we’re starting simple and building it up step by step. It also matches what we learned since it uses numerical methods, Python, and graphs to solve a physics problem.
+
+Project Update – Damped Driven Oscillator
