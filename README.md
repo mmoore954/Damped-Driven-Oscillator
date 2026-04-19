@@ -25,3 +25,23 @@ There have not been major changes to our overall approach. We are still using th
 One of the main challenges so far has been making sure the time step is chosen correctly. If the step is too large, the results can become inaccurate or unstable, and if it is too small, the simulation takes longer to run. We are also paying attention to making sure the results make physical sense and that the graphs look correct. Debugging the code and verifying correctness has taken some time, especially when testing different parameter values.
 Currently, we are not stuck on any major issues, but we still need to continue building the model by adding damping and the external driving force. After that, we will generate the required graphs and begin testing different parameter values to observe how the system behaves, especially in terms of resonance.
 Overall, we are following our planned timeline and progressing steadily. The next steps are to complete the full implementation of the system, refine the graphs, and analyze how changing parameters like damping and frequency affect the motion.
+
+
+
+
+
+
+(PROJECT PROPOSAL)
+Me and Mukesh are currently working on our damped driven oscillator simulation. Right now we have the basic setup done and we started coding the Euler method to simulate the motion of the system over time. We were able to get position vs time working and the system runs, so we know the base of the project is good. We also set up our GitHub repo and both of us have been pushing commits so there is clear progress being made.
+
+One change we made from our original plan is that we are not only using Euler anymore. Based on feedback, we are now also adding the Verlet method. This is because Euler has accuracy issues, especially over longer time, and does not conserve energy well. By adding Verlet, we can compare the two methods and show how they behave differently, which makes the project more advanced and more meaningful.
+
+One challenge we ran into was getting the system to behave correctly over time. At first the motion looked off because the time step was too big, so we had to adjust it and test different values until the graph looked right. Another challenge is understanding how to properly measure amplitude for the amplitude vs frequency graph. We realized we cannot just take the first peak, and instead we need to let the system run long enough so the transient behavior dies out before measuring steady-state amplitude.
+
+Right now we are not fully stuck, but the main thing we are still working on is finishing the Verlet method and making sure both methods are running correctly so we can compare them. We also still need to implement the frequency sweep for the amplitude vs frequency graph.
+
+As for our progress compared to the timeline, we are a little behind on adding the second method, but we are catching up by splitting the work more clearly. I (Mason) am focusing on finishing and cleaning up the Euler method and making sure all the basic graphs are correct. Mukesh is working on implementing the Verlet method and will handle the comparison graph between Euler and Verlet. After that, we will both work on the amplitude vs frequency graph and final analysis.
+
+Moving forward, our plan is to first finish the Verlet method completely, then combine both methods into one script so we can directly compare results. After that, we will run simulations over a range of driving frequencies and record steady-state amplitude to create the amplitude vs frequency plot. If we have extra time, we may also try to create a 2D heatmap showing how amplitude changes with both damping and frequency.
+
+Overall, we have a solid base working and a clear plan for finishing the project, and we are continuing to make steady progress through commits and testing.
