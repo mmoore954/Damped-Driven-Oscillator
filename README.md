@@ -20,18 +20,6 @@ Week 5: Clean everything up, finalize graphs, and finish report
 This project is doable because we’re starting simple and building it up step by step. It also matches what we learned since it uses numerical methods, Python, and graphs to solve a physics problem.
 
 Project Update – Damped Driven Oscillator
-At this point in the project, we are on track with our original timeline. We have set up the basic structure of the project and started implementing the numerical solution. So far, we have begun coding the Euler method in Python and tested a simple case of the system without added complexity. This aligns with our initial plan of starting simple and building up step by step.
-There have not been major changes to our overall approach. We are still using the Euler method to solve the differential equation by converting the second-order equation into two first-order equations and stepping forward in time. We are using NumPy for calculations and plan to use Matplotlib for generating graphs such as position vs time, velocity vs time, and amplitude vs frequency to analyze resonance.
-One of the main challenges so far has been making sure the time step is chosen correctly. If the step is too large, the results can become inaccurate or unstable, and if it is too small, the simulation takes longer to run. We are also paying attention to making sure the results make physical sense and that the graphs look correct. Debugging the code and verifying correctness has taken some time, especially when testing different parameter values.
-Currently, we are not stuck on any major issues, but we still need to continue building the model by adding damping and the external driving force. After that, we will generate the required graphs and begin testing different parameter values to observe how the system behaves, especially in terms of resonance.
-Overall, we are following our planned timeline and progressing steadily. The next steps are to complete the full implementation of the system, refine the graphs, and analyze how changing parameters like damping and frequency affect the motion.
-
-
-
-
-
-
-(PROJECT PROPOSAL)
 Me and Mukesh are currently working on our damped driven oscillator simulation. Right now we have the basic setup done and we started coding the Euler method to simulate the motion of the system over time. We were able to get position vs time working and the system runs, so we know the base of the project is good. We also set up our GitHub repo and both of us have been pushing commits so there is clear progress being made.
 
 One change we made from our original plan is that we are not only using Euler anymore. Based on feedback, we are now also adding the Verlet method. This is because Euler has accuracy issues, especially over longer time, and does not conserve energy well. By adding Verlet, we can compare the two methods and show how they behave differently, which makes the project more advanced and more meaningful.
