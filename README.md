@@ -33,3 +33,31 @@ As for our progress compared to the timeline, we are a little behind on adding t
 Moving forward, our plan is to first finish the Verlet method completely, then combine both methods into one script so we can directly compare results. After that, we will run simulations over a range of driving frequencies and record steady-state amplitude to create the amplitude vs frequency plot. If we have extra time, we may also try to create a 2D heatmap showing how amplitude changes with both damping and frequency.
 
 Overall, we have a solid base working and a clear plan for finishing the project, and we are continuing to make steady progress through commits and testing.
+
+
+
+
+## License
+MIT License
+
+Copyright (c) 2026 Mukesh Machhal and Mason Moore
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+This project is licensed under the MIT License. See the LICENSE file for details.
